@@ -28,7 +28,8 @@ public class LoginActivity extends AppCompatActivity {
         Log.e("user id printing ",""+USERID);
         Button b = (Button) findViewById(R.id.submitbuttonlogin);
         final Intent i = new Intent(this,HomeEmployee.class);
-        b.setOnClickListener(new View.OnClickListener() {
+        b.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View v) {
                 Log.e("came into","onc.ick "+USERID);
